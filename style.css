@@ -21,7 +21,7 @@ a:hover {
 #landing{
     height: 95vh;
     /* background-image: url('/assets/pexels-bri-schneiter-346529.jpg'); */
-    background-image: url('/assets/IMG_9110.JPG');
+    background-image: url('assets/IMG_9110.JPG');
     /* background-image: url('/assets/IMG_9110 (1).JPG');  */
     /* background-image: url('/assets/IMG_9110bw.JPG');  */
     background-position: center;
