@@ -1,0 +1,67 @@
+body {
+    background-color: white ;
+    color:black;
+}
+
+
+.homeIcon i {
+    margin-right: 15px;
+    vertical-align: -20%;
+}
+
+.socialIcon i {
+    margin-right: 15px;
+    vertical-align: -25%;
+}
+
+a:hover {
+    opacity:.6;
+}
+
+#landing{
+    height: 95vh;
+    /* background-image: url('/assets/pexels-bri-schneiter-346529.jpg'); */
+    background-image: url('/assets/IMG_9110.JPG');
+    /* background-image: url('/assets/IMG_9110 (1).JPG');  */
+    /* background-image: url('/assets/IMG_9110bw.JPG');  */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;   
+    opacity: .9;
+    
+}
+
+#landing h4 {
+    /* background-color: khaki; */
+    opacity:.6 ;
+    color:white;
+}
+
+#mainText{
+    margin-top: 45vh;
+}
+
+#downButton {
+    margin-top: 82vh;
+    
+    /* opacity:.8; */
+    /* margin-left:50%; */
+}
+
+.headerSection {
+    margin-top: 8vh;
+}
+
+.aboutCard {
+    height:40vh;
+}
+
+.aboutMe2 {
+    margin-top:5vh;
+}
+
+.projectCard {
+    height:60vh;
+}
