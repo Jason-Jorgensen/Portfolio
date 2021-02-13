@@ -3,6 +3,12 @@ $(document).ready(function(){
 
   });
 
+  $(".homeIcon").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#landing").offset().top
+    }, 2000);
+});
+
 $("#downButton").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#intro").offset().top
@@ -35,8 +41,8 @@ $(".projects").click(function() {
   }, 2000);
 });
 
-// $("contact").click(function() {
-//   $([document.documentElement, document.body]).animate({
-//       scrollTop: $("#").offset().top
-//   }, 2000);
-// });
+$(".contact").click(function() {
+  $([document.documentElement, document.body]).animate({
+      scrollTop: $("#contactMe").offset().top
+  }, 2000);
+});
