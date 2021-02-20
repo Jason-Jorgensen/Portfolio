@@ -66,10 +66,10 @@ a:hover {
     background-image: url('assets/IMG_9110.JPG');
     /* background-image: url('/assets/IMG_9110 (1).JPG');  */
     /* background-image: url('/assets/IMG_9110bw.JPG');  */
-    background-position: center;
-    background-size: cover;
+    background-position: center !important;
+    background-size: cover !important;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     z-index: -1;   
     opacity: .9;
     
