@@ -16,6 +16,7 @@ body {
 
 a:hover {
     opacity:.6;
+    cursor:pointer;
 }
 
 #landing{
@@ -54,14 +55,19 @@ a:hover {
     margin-top: 8vh;
 }
 
+.projectCard a {
+    font-size:8px;
+}
+
 .aboutCard {
     height:40vh;
+    overflow:auto;
 }
 
 .aboutMe2 {
-    margin-top:5vh;
+    margin-top:3vh;
 }
 
 .projectCard {
-    height:58vh;
+    height:auto;
 }
