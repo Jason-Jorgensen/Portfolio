@@ -167,7 +167,7 @@
                         <span class="card-title grey-text text-darken-4">Inventory Manaagement App<i
                                 class="material-icons right">close</i></span>
                         <p>Web app for a local business to streamline their steel yard’s inventory management. This application
-                            allows a worker to select the material they are either picking up or dropping of from a 60 acre lot. 
+                            allows a worker to select the material they are either picking up or dropping off from a 60 acre lot. 
                             Once the item is selected they are directed on a Google Map with pins of where the item is located or
                             should go. Once that task is performed the employee can send a auto populated email with what their task
                             was and select a manager to send the email to.  
@@ -220,7 +220,7 @@
                         <span class="card-title grey-text text-darken-4">Inventory Manaagement App<i
                                 class="material-icons right">close</i></span>
                         <p>Web app for a local business to streamline their steel yard’s inventory management. This application
-                            allows a worker to select the material they are either picking up or dropping of from a 60 acre lot. 
+                            allows a worker to select the material they are either picking up or dropping off from a 60 acre lot. 
                             Once the item is selected they are directed on a Google Map with pins of where the item is located or
                             should go. Once that task is performed the employee can send a auto populated email with what their task
                             was and select a manager to send the email to.  
@@ -291,7 +291,12 @@
                             <div class="divider"></div>
                             <div class="row">
                                 <div class="col m12">
-                                 <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
+                                 <p class="left-align"><button class="btn btn-large waves-effect waves-light emailButton" type="button" name="action">Send Message</button></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col m12 emailNotification">
+                                 
                                 </div>
                             </div>
                         </form>
@@ -306,24 +311,25 @@
       <footer class="page-footer" style="background-color: rgb(68,68,68);">
         <div class="container">
           <div class="row container center-align">
-            <div class="col l12 s12">
+            <div class="col l6 m6 s12">
               <h5 class="white-text">Contact Info</h5>
               <ul>
                 <p>jasoncjorgensen@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i></p>
                 <p>(801) 608-5478 <i class="fa fa-phone" aria-hidden="true"></i></p>
               </ul>
             </div>
-          </div>  
+           
 
-          <div class="row container center-align">
-            <div class="col l12 s12">
+          
+            <div class="col l6 m6 s12">
               <h5 class="white-text">Follow Me</h5>
               <ul>
                 <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.linkedin.com/in/jasoncjorgensen/">Linkedin <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
                 <li><a class="grey-text text-lighten-3" target="_blank" href="https://github.com/Jason-Jorgensen">Github <i class="fa fa-github" aria-hidden="true"></i></a></li>
               </ul>
             </div>
-          </div>  
+        </div>    
+          
             
         <div class="footer-copyright">
           <div class="container center">
@@ -345,6 +351,8 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="email.js"></script>
     <script src="script.js"></script>
 </body>
 
