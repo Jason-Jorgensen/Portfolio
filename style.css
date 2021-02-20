@@ -69,7 +69,7 @@ a:hover {
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat;
-    /* background-attachment: fixed !important; */
+    background-attachment: fixed !important;
     z-index: -1;   
     opacity: .9;
     
