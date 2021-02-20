@@ -47,18 +47,3 @@ $(".contact").click(function() {
   }, 2000);
 });
 
-setTimeout(function() {
-
-  var pdfFile = "assets/resume(1).docx.pdf";
-
-  if(navigator.userAgent.match(/Android/i)) {
-
-    window.open(pdfFile);
-
-  } else {
-
-    window.document.location.href = pdfFile;
-
-  }
-
-}, 100);
